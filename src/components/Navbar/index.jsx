@@ -17,6 +17,7 @@ export default function Navbar() {
         backgroundColor: "#df5f5fff",
         justifyContent: "space-between",
         alignItems: "center",
+        width: "100vw",
       }}>
       <Grid size={2}>
         <IconButton
@@ -29,12 +30,12 @@ export default function Navbar() {
           <MenuIcon />
         </IconButton>
       </Grid>
-        <Grid size={7}>
+        <Grid size={8}>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            News
+            ShoppingOnline
           </Typography>
         </Grid>
-        <Grid size={3}>
+        <Grid size={2}>
           <Button color="inherit">Iniciar Sesion</Button>
         </Grid>
     </Grid >
