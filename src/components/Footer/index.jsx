@@ -8,9 +8,10 @@ export default function Footer() {
                 width: "100vw",
                 padding: "10px",
                 color: "#fff",
+                textAlign: "center",
             }}
         >
-            Footer
+            © 2025 APPelis. Todos los derechos reservados.
         </Box>
     );
 }
