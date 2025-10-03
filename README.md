@@ -5,7 +5,7 @@ APPelis es una aplicación web desarrollada en React que permite a los usuarios 
 Instrucciones para correr el proyecto localmente:
 
 -Clonar el repositorio:
-git clone <URL_DEL_REPOSITORIO>
+git clone <https://github.com/fosqui/CursoReact.git>
 cd tp-react
 -Instalar dependencias: 
 npm install
