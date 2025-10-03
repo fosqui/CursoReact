@@ -7,7 +7,8 @@ const DetallePelicula = () => {
     const { id } = useParams();
     const [pelicula, setPelicula] = useState(null);
     const [cargando, setCargando] = useState(true);
-
+    
+    // Realiza la petición para obtener los detalles de la película con el id recibido
     useEffect(() => {
         const fetchPelicula = async () => {
             try {

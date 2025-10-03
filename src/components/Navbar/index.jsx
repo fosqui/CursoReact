@@ -27,7 +27,7 @@ export default function Navbar() {
             },
           }}
         >
-          Usuarios
+          Reseñas
         </Button>
       </Grid>
       <Grid size={8}>

@@ -21,6 +21,7 @@ export default function CardUsuario(usuario) {
               textAlign: "center",
               transition: "transform 0.2s",
             }}
+            // Efecto hover para agrandar levemente la tarjeta
             onMouseEnter={(e) => (e.currentTarget.style.transform = "scale(1.03)")}
             onMouseLeave={(e) => (e.currentTarget.style.transform = "scale(1)")}
           >

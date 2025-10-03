@@ -11,6 +11,7 @@ export default function Usuarios() {
     buscarUsuarios();
   }, []);
 
+  // Llama a la API para obtener la lista de usuarios
   const buscarUsuarios = async () => {
     setCargando(true);
     axios

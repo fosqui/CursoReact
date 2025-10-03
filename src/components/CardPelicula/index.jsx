@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 export default function CardPelicula(pelicula) {
   const navigate = useNavigate();
 
+  //* Maneja el clic en la tarjeta para navegar a la página de detalles
   const handleCardClick = () => {
     navigate(`/peliculas/${pelicula.imdbID}`);
   };
